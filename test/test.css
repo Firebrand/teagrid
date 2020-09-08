@@ -1,0 +1,13 @@
+.bd-example-row .tea-row > .tea-col, .bd-example-row .tea-row > [class^="tea-col"] {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+.bd-example-row .tea-row + .tea-row {
+  margin-top: 1rem;
+}
+.bd-example-row .flex-items-top, .bd-example-row .flex-items-middle, .bd-example-row .flex-items-bottom {
+  min-height: 6rem;
+  background-color: rgba(255, 0, 0, .1);
+}
