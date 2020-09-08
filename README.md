@@ -1,4 +1,4 @@
-![css-to-scss logo](https://raw.githubusercontent.com/Firebrand/teagrid/master/logo.png)
+![css-to-scss logo](https://raw.githubusercontent.com/Firebrand/teagrid/master/logo2.png)
 
 # TeaGrid
 A tiny but powerful css grid framework. Emulates most of Bootstrap's grid in just a couple lines of SASS code!
