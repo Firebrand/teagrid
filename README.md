@@ -3,7 +3,7 @@
 # TeaGrid
 A tiny but powerful css grid framework. Emulates most of Bootstrap's grid in just a couple lines of SCSS code!
 
-All the code you need is in tea.scss
+**tea.scss** is the only file you need.
 
 ### TeaGrid classes and their Bootstrap equivalents
 
