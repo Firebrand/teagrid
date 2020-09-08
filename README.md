@@ -12,8 +12,8 @@ A tiny but powerful css grid framework. Emulates most of Bootstrap's grid in jus
 | container | tea-container |
 | row | tea-row |
 | col | tea-col |
-| col-6 | tea-col6 |
-| col-6-md | tea-col6-md |
+| col-[number of cols to span] (ex. **col-6**) | tea-col[number of cols to span] (ex. **tea-col6**) |
+| col-[number of cols to span]-[apply to this breakpoint and above] (ex. **col-6-md**) | tea-col[number of cols to span]-[apply to this breakpoint and above] (ex. **tea-col6-md**)|
 
 ### Further documentation
 
