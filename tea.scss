@@ -22,7 +22,7 @@ $grid-container-max-widths: (
 
 $gutter-width-adj: $gutter-width/2;
 @mixin col-defaults {-ms-flex-preferred-size: 0; flex-basis: 0; -ms-flex-positive: 1; flex-grow: 1; max-width: 100%;}
-.tea-col0{ max-width: 0; padding: 0px;}
+
 @for $i from 1 through $numColumns {
   $width: 100%/$numColumns*$i;
   .tea-col#{$i}{ flex: 0 0 $width; max-width: $width; padding: 0px ($gutter-width-adj);}
@@ -33,6 +33,15 @@ $gutter-width-adj: $gutter-width/2;
   width: 100%;
   padding-right: $gutter-width-adj;
   padding-left: $gutter-width-adj;
+}
+.tea-col0{ max-width: 0; padding: 0px;}
+
+.tea-container {
+  width: 100%;
+  padding-left: ($gutter-width-adj);
+  padding-right: ($gutter-width-adj);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @each $key, $val in $grid-breakpoints {
@@ -55,14 +64,6 @@ $gutter-width-adj: $gutter-width/2;
 
 .tea-col{
   @include col-defaults;
-}
-
-.tea-container {
-  width: 100%;
-  padding-left: ($gutter-width-adj);
-  padding-right: ($gutter-width-adj);
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .tea-no-gutters {
