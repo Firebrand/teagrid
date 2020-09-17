@@ -5,6 +5,11 @@ A tiny but powerful css grid framework. Emulates most of Bootstrap's grid in jus
 
 **tea.scss** is the only file you need.
 
+### TeaGrid advantages over Bootstrap Grid
+- Much smaller footprint
+- Better namespaced
+- Easier to customize gutter widths, margins etc.
+
 ### TeaGrid classes and their Bootstrap equivalents
 
 | Bootstrap | TeaGrid |
